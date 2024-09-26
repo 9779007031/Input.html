@@ -1,0 +1,31 @@
+09.26 7:46 AM
+input.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details Form</title>
+</head>
+<body>
+    <h2>Personal Details Form</h2>
+    <form action="/submit" method="POST">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="fatherName">Father's Name:</label><br>
+        <input type="text" id="fatherName" name="fatherName" required><br><br>
+
+        <label for="motherName">Mother's Name:</label><br>
+        <input type="text" id="motherName" name="motherName" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
